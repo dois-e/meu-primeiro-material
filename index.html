@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>mídias</title>
+</head>
+
+<body>
+<!--esta tag adiciona uma imagem-->   
+<img src="img/sddefault.jpg" alt="foto-tekken">
+
+<hr>
+    <h1>trailer tekken</h1>
+    <!--essa tag cria player de video com diversos controles-->
+   <video controls width="600" height="350" id="video">
+    <source src="midias/videos/tekken.mp4" type="video/mp4">
+    
+   </video>
+   <br>
+<!--esta tag cria player de audio-->
+   <hr>
+   <h1> audio need for speed underground 3</h1>
+<audio controls id="play">
+    <source src="./midias/muusica/need-3.mp3" type="audio/mpeg">
+</audio>
+
+<br>
+
+<button onclick="document.getElementById('play').play()">play </button>
+<button onclick="document.getElementById('play').pause()">pausar </button>
+<br>
+<h1>player do video</h1>
+<button onclick="document.getElementById('video').play()">play </button>
+<button onclick="document.getElementById('video').pause()">pausar </button>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_g6jDv9KiU8?si=MagXMR5rZgE5jeNh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
